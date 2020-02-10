@@ -4,8 +4,16 @@
 \alias{errorbar}
 \title{Display errorbars}
 \usage{
-errorbar(x, y, xupper = NULL, xlower = NULL, yupper = NULL,
-  ylower = NULL, col = "black", lty = 1)
+errorbar(
+  x,
+  y,
+  xupper = NULL,
+  xlower = NULL,
+  yupper = NULL,
+  ylower = NULL,
+  col = "black",
+  lty = 1
+)
 }
 \arguments{
 \item{x, y}{numeric vectors, the coordinates of points at which the error bar
@@ -26,7 +34,7 @@ Create a errorbar, or add errorbars to an existing plot.
 \examples{
 x <- seq(0, 2 * pi, length.out = 100)
 y <- sin(x)
-plot(x, y, type = 'l')
+plot(x, y, type = "l")
 errorbar(x, y, yupper = 0.1, ylower = 0.1)
 
 }

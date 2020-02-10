@@ -24,6 +24,6 @@ bibentry will be saved to bibfile.
 bib()
 
 \dontrun{
-bib(pkg = c('mindr', 'bookdownplus', 'pinyin'))
+bib(pkg = c("mindr", "bookdownplus", "pinyin"))
 }
 }
