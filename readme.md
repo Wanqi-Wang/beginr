@@ -10,7 +10,7 @@
 <div id="installation" class="section level1">
 <h1>Installation</h1>
 <pre class="r"><code># stable version on CRAN
-install.package(&quot;beginr&quot;)
+install.packages(&quot;beginr&quot;)
 # or development version on GitHub
 devtools::install_github(&quot;pzhaonet/beginr&quot;)</code></pre>
 </div>
